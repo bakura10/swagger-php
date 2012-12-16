@@ -29,6 +29,7 @@ use Swagger\Annotations\Operation;
  * @subpackage
  *
  * @Annotation
+ * @Target({"ANNOTATION"})
  */
 class Operations extends AbstractAnnotation
 {

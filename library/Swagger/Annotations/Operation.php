@@ -30,6 +30,7 @@ use Swagger\Annotations\ErrorResponses;
  * @subpackage
  *
  * @Annotation
+ * @Target({"ANNOTATION"})
  */
 class Operation extends AbstractAnnotation
 {

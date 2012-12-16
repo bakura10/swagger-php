@@ -27,6 +27,7 @@ namespace Swagger\Annotations;
  * @subpackage
  *
  * @Annotation
+ * @Target({"ANNOTATION"})
  */
 class Parameter extends AbstractAnnotation
 {

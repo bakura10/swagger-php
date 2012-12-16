@@ -29,6 +29,7 @@ use Swagger\Annotations\Operations;
  * @subpackage
  *
  * @Annotation
+ * @Target({"METHOD"})
  */
 class Api extends AbstractAnnotation
 {

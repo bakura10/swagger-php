@@ -29,7 +29,6 @@ use \Doctrine\Common\Annotations\AnnotationException;
  * @subpackage
  *
  * @Annotation
- * @Target({"ALL"})
  */
 abstract class AbstractAnnotation
 {

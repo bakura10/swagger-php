@@ -29,6 +29,7 @@ use \Doctrine\Common\Annotations\AnnotationException;
  * @subpackage
  *
  * @Annotation
+ * @Target({"ANNOTATION"})
  */
 class AllowableValues extends AbstractAnnotation
 {

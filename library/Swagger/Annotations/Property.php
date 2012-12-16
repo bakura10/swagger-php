@@ -27,6 +27,7 @@ namespace Swagger\Annotations;
  * @subpackage
  *
  * @Annotation
+ * @Target({"PROPERTY","CLASS"})
  */
 class Property extends AbstractAnnotation
 {

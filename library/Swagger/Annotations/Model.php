@@ -27,6 +27,7 @@ namespace Swagger\Annotations;
  * @subpackage
  *
  * @Annotation
+ * @Target({"CLASS"})
  */
 class Model extends AbstractAnnotation
 {
